@@ -1,16 +1,21 @@
 /*global styles*/
 
 body {
-    background-color: blueviolet;
+    background-color: #814D90;
 }
 
 header{
-    background-color: lavender;
+    background-color: #22AED1;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
+ul {
+    
 }
 
 main{
-    background-color: sandybrown;
+    background-color: #FDF0D5;
 }
 
 footer{
