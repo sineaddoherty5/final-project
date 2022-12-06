@@ -8,9 +8,10 @@ p{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
     font-style: normal;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
 }
+
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
@@ -45,8 +46,8 @@ main{
     background-color: #FDF0D5;
     border-radius: 5px;
     border-color: rgb(138, 174, 149);
-    padding: 40px;
-    margin: 5px;
+    padding: 60px;
+    margin: 20px;
 }
 
 
@@ -86,19 +87,19 @@ button:hover {
 
 .typography-section{
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 10px;
+    font-size: 40px;
     text-align: center;
     padding: 5px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .poster-section{
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 10px;
+    font-size: 40px;
     text-align: center;
     padding: 5px;
     margin: 10px;
@@ -124,6 +125,8 @@ button:hover {
     margin: 10px;
 }
 
+/*typography*/
+
 .typo-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
@@ -134,8 +137,9 @@ button:hover {
 
 .caption {
     font-size: 15px;
-    font-style: italic;
+    font-style: normal;
     padding: 0 10px;
+    text-align: center;
 }
 
 .container{
@@ -152,5 +156,39 @@ button:hover {
 
 .typography-group{
     border: 2px solid #c4e2bf;
-    width: 283px;
+    width: 275px;
+}
+
+/*CARP*/
+
+.carp-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.caption {
+    font-size: 15px;
+    font-style: normal;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}
+
+.carp-item{
+    width: 280px;
+    height: 390px;
+    padding: 4px; 
+}
+
+.carp-group{
+    border: 2px solid #c4e2bf;
+    width: 275px;
 }
