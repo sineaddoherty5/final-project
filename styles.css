@@ -137,3 +137,20 @@ button:hover {
     font-style: italic;
     padding: 0 10px;
 }
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+}
+
+.typo-item{
+    width: 275px;
+    height: 275px;
+    padding: 4px;  
+}
+
+.typography-group{
+    border: 2px solid #c4e2bf;
+    width: 283px;
+}
