@@ -4,16 +4,16 @@ body {
     background-color: #c4e2bf;
 }
 
-p {
-    font-family: 'Brush Script MT', cursive;
-    font-weight: 400;
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
     font-style: normal;
     font-size: 20px;
-    text-align: center; 
+    text-align: center;
 }
 
 h1 {
-    font-family: livory,serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
@@ -29,7 +29,8 @@ ul {
 header{
     background-color: rgb(238, 241, 226);
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
 }
 
 .container-navigation {
@@ -42,6 +43,7 @@ header{
 main{
     background-color: #FDF0D5;
 }
+
 
 footer{
     background-color: rgb(138, 174, 149);
@@ -58,7 +60,7 @@ button {
     border: solid;
     border-width: 1px;
     border-radius: 3px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: large;
     padding: 10px;
     margin: 2px;
@@ -69,4 +71,17 @@ button:hover {
     background-color: #c4e2bf;
     color: white;
 }
+
+.mountains{
+    width: 100%;
+}
+
+.typography-section{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    text-align: center;
+}
+
 
