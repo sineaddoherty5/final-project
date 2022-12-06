@@ -85,6 +85,16 @@ button:hover {
 
 /*sections*/
 
+.aboutme-section{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+}
+
 .typography-section{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
