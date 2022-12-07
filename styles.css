@@ -130,7 +130,7 @@ button:hover {
     font-size: 40px;
     text-align: center;
     padding: 5px;
-    margin: 20px;
+    margin: 100px;
 }
 
 .reflection-section{
@@ -199,6 +199,7 @@ button:hover {
     color: white;
     font-size: 25px;
     font-weight: bold;
+    margin-top: 120px;
 }
 
 .caption {
@@ -208,16 +209,19 @@ button:hover {
     text-align: center;
 }
 
-.container{
+.carpcontainer{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap; 
+    align-items: center;
+    flex-direction: column;
 }
 
 .carp-item{
     width: 280px;
     height: 390px;
     padding: 4px; 
+    margin-top: 40px;
 }
 
 .carp-group{
@@ -248,13 +252,13 @@ button:hover {
     flex-wrap: wrap; 
     align-items: center;
     flex-direction: column;
-
 }
 
 .worksheet-item{
     width: 300px;
     height: 300px;
-    padding: 4px;  
+    padding: 4px; 
+    margin-top: 20px; 
 }
 
 .worksheet-group{
