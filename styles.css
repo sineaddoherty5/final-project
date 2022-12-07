@@ -66,6 +66,7 @@ button {
     border: solid;
     border-width: 1px;
     border-radius: 3px;
+    border-color: #FDF0D5;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     padding: 10px;
@@ -83,16 +84,22 @@ button:hover {
     align-content: center;
 }
 
+.me{
+    width: 300px;
+    height: 300px;
+    padding: 4px;
+}
+
 /*sections*/
 
 .aboutme-section{
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 10px;
+    font-size: 40px;
     text-align: center;
     padding: 5px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .typography-section{
@@ -112,27 +119,27 @@ button:hover {
     font-size: 40px;
     text-align: center;
     padding: 5px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .worksheet-section{
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 10px;
+    font-size: 40px;
     text-align: center;
     padding: 5px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .reflection-section{
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
-    font-size: 10px;
+    font-size: 40px;
     text-align: center;
     padding: 5px;
-    margin: 10px;
+    margin: 20px;
 }
 
 /*typography*/
@@ -171,6 +178,16 @@ button:hover {
 
 /*CARP*/
 
+.section{
+   background-color: #c4e2bf;
+   display: flex;
+   justify-content: space-between;
+}
+
+.section img{
+   height: 250px;
+}
+
 .carp-text {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
@@ -199,6 +216,43 @@ button:hover {
 }
 
 .carp-group{
+    border: 2px solid #c4e2bf;
+    width: 275px;
+}
+
+/*worksheets*/
+
+.worksheet-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.caption {
+    font-size: 15px;
+    font-style: normal;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.htmlcontainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.worksheet-item{
+    width: 300px;
+    height: 300px;
+    padding: 4px;  
+}
+
+.worksheet-group{
     border: 2px solid #c4e2bf;
     width: 275px;
 }
