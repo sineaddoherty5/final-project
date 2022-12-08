@@ -12,6 +12,13 @@ p{
     text-align: center;
 }
 
+b {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+}
 
 h1 {
     font-family: 'Courier New', Courier, monospace;
@@ -47,12 +54,18 @@ main{
     border-radius: 5px;
     border-color: rgb(138, 174, 149);
     padding: 60px;
-    margin: 20px;
+    margin: 100px;
 }
 
 
 footer{
     background-color: rgb(138, 174, 149);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
 }
 
 
@@ -66,7 +79,7 @@ button {
     border: solid;
     border-width: 1px;
     border-radius: 3px;
-    border-color: #FDF0D5;
+    border-color: rgb(138, 174, 149);
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
     padding: 10px;
@@ -100,7 +113,7 @@ button:hover {
     font-size: 40px;
     text-align: center;
     padding: 5px;
-    margin: 20px;
+    margin: 150px;
 }
 
 .typography-section{
@@ -130,7 +143,7 @@ button:hover {
     font-size: 40px;
     text-align: center;
     padding: 5px;
-    margin: 100px;
+    margin: 70px;
 }
 
 .reflection-section{
@@ -218,8 +231,8 @@ button:hover {
 }
 
 .carp-item{
-    width: 280px;
-    height: 390px;
+    width: 340px;
+    height: 480px;
     padding: 4px; 
     margin-top: 40px;
 }
@@ -255,10 +268,13 @@ button:hover {
 }
 
 .worksheet-item{
-    width: 300px;
+    width: 450px;
     height: 300px;
     padding: 4px; 
     margin-top: 20px; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .worksheet-group{
