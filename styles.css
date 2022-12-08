@@ -12,14 +12,6 @@ p{
     text-align: center;
 }
 
-b {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 30px;
-    text-align: center;
-}
-
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
@@ -113,7 +105,7 @@ button:hover {
     font-size: 40px;
     text-align: center;
     padding: 5px;
-    margin: 150px;
+    margin: 190px;
 }
 
 .typography-section{
