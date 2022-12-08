@@ -162,6 +162,14 @@ button:hover {
     text-align: center;
     padding: 5px;
     margin: 20px;
+    background-color: rgb(138, 174, 149);
+}
+
+.back-to-top{
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display:flex;
 }
 
 /*typography*/
