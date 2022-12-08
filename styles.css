@@ -12,6 +12,15 @@ p{
     text-align: center;
 }
 
+b{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center; 
+    color: white;    
+}
+
 h1 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 400;
@@ -23,7 +32,6 @@ h1 {
 ul {
     list-style-type: none;
     padding: 5px;
-
 }
 
 header{
@@ -106,6 +114,7 @@ button:hover {
     text-align: center;
     padding: 5px;
     margin: 190px;
+    background-color: rgb(138, 174, 149);
 }
 
 .typography-section{
@@ -125,7 +134,8 @@ button:hover {
     font-size: 40px;
     text-align: center;
     padding: 5px;
-    margin: 20px;
+    margin: 130px;
+    background-color: rgb(138, 174, 149);
 }
 
 .worksheet-section{
@@ -202,9 +212,10 @@ button:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
-    margin-top: 120px;
+    margin-top: 20px;
+    background-color: rgb(138, 174, 149)
 }
 
 .caption {
@@ -223,15 +234,16 @@ button:hover {
 }
 
 .carp-item{
-    width: 340px;
-    height: 480px;
+    width: 370px;
+    height: 520px;
     padding: 4px; 
-    margin-top: 40px;
+    margin-top: 70px;
+    margin-bottom: 20px;
 }
 
 .carp-group{
-    border: 2px solid #c4e2bf;
-    width: 275px;
+
+    width: 430px;
 }
 
 /*worksheets*/
