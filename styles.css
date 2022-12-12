@@ -131,6 +131,7 @@ button:hover {
     text-align: center;
     padding: 5px;
     margin: 20px;
+    background-color: #d6bfca;
 }
 
 .poster-section{
@@ -152,6 +153,7 @@ button:hover {
     text-align: center;
     padding: 5px;
     margin: 70px;
+    background-color: #d6bfca;
 }
 
 .reflection-section{
@@ -206,7 +208,6 @@ button:hover {
 }
 
 .typography-group{
-    border: 2px solid #c4e2bf;
     width: 295px;
 }
 
@@ -222,20 +223,19 @@ button:hover {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding: 15px 25px 15px 15px;
+    padding: 2px 100px 100px 100px;
     flex-direction:row;
 }
 
 .media-container .mediacontent {
     flex: 1;
-    padding: 10px;
+    padding: 130px;
 }
 
 .mediacontent {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-size: 15px;
-    padding-top: 70px;
 }
 
 .section img{
@@ -271,7 +271,7 @@ button:hover {
     width: 370px;
     height: 520px;
     padding: 4px; 
-    margin-top: 70px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
@@ -317,7 +317,6 @@ button:hover {
 }
 
 .worksheet-group{
-    border: 2px solid #c4e2bf;
     width: 460px;
 }
 
