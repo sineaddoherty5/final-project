@@ -64,6 +64,7 @@ main{
 }
 
 
+
 footer{
     background-color: rgb(138, 174, 149);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -223,7 +224,7 @@ button:hover {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    padding: 2px 100px 100px 100px;
+    padding: 2px 100px 50px 100px;
     flex-direction:row;
 }
 
@@ -317,7 +318,7 @@ button:hover {
 }
 
 .worksheet-group{
-    width: 460px;
+    width: 700px;
 }
 
 img{
@@ -330,3 +331,4 @@ img{
 img:hover{
     transform:scale(1.2);
 }
+
